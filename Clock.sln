@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clock", "Clock.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bounce2-2.71", "..\libraries\Bounce2\Bounce2-2.71.vcxitems", "{CF1C60EE-DDCF-4CAE-99FF-D9A0A648F2FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rtc_by_Makuna-2.3.5", "..\libraries\Rtc_by_Makuna\Rtc_by_Makuna-2.3.5.vcxitems", "{BE060E63-89B5-49C3-B4C1-0BA51F96C088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2D3B28F-7906-4DD4-A61F-3776C5AC5BD5}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\libraries\Rtc_by_Makuna\Rtc_by_Makuna-2.3.5.vcxitems*{be060e63-89b5-49c3-b4c1-0ba51f96c088}*SharedItemsImports = 9
+		..\libraries\Bounce2\Bounce2-2.71.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\Rtc_by_Makuna\Rtc_by_Makuna-2.3.5.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\Bounce2\Bounce2-2.71.vcxitems*{cf1c60ee-ddcf-4cae-99ff-d9a0a648f2fa}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal
